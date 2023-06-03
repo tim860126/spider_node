@@ -1,11 +1,11 @@
 let nodes = [];
 let astro;
 function setup() {
-  createCanvas(1200, 600);
+  createCanvas(3000, 3000);
   // noCursor();
   astro = new Astro(width/2, height/2)
   
-  for(let i = 0; i < 300; i++){
+  for(let i = 0; i < 10000; i++){
     nodes.push(new Node(random(width), random(height)))
   }
   
